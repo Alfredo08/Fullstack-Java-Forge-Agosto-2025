@@ -1,0 +1,93 @@
+/*
+* {
+    text-align: center;
+}
+*/
+
+body{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 20px;
+}
+
+li {
+    color: blue;
+    font-weight: bold;
+}
+
+td {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+
+#secundario{
+    color: rgb(246, 187, 80);
+    font-style: italic;
+}
+
+.extra-grande{
+    font-size: 80px;
+    background-color: green;
+}
+
+.fondoCeleste{
+    background-color: #62F5FC;
+}
+
+h1{
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+    width: 400px;
+}
+
+form{
+    margin-top: 15px;
+    /*
+    margin: 10px 20px;              10px top/bottom 20px left/right
+    margin: 10px 20px 30px 40px;    top - right - bottom - left
+    */
+}
+
+div{
+    margin-bottom: 10px;
+    padding: 10px;
+    /*
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    */
+    border: 2px double blue;
+}
+
+div > input{
+    width: 300px;
+}
+
+label{
+    margin-right: 20px;
+}
+
+body li{
+    font-style: italic;
+}
+
+p[class="fondoCeleste"] {
+    padding: 20px;
+}
+
+p.fondoCeleste{
+    background-color: rgb(3, 165, 165);
+    color: white;
+}
+
+h1, h2{
+    color: black;
+}
+
+/*
+    id > class > nombre
+*/
