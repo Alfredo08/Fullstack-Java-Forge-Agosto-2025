@@ -1,0 +1,36 @@
+.contenedor, section{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Selector descendiente */
+.contenedor p{
+    color: blue;
+}
+
+/* Selector hijo directo */
+.contenedor > h2 {
+    color: red;
+}
+
+/* Selectores específicos */
+p.destacado {
+   font-weight: bold;
+   font-style: italic; 
+}
+
+/* Selector por atributo */
+a[target="_blank"]{
+    text-decoration: underline;
+    color: green;
+}
+
+/* Selector múltiple */
+h1, footer{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+h2{
+    color: orange;
+}
