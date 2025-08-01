@@ -5,9 +5,9 @@
 .seccion1{
     background-color: yellow;
     border: 1px solid black;
-    padding: 5px;
-    width: 100px;
+    padding: 30px;
     height: 200px;
+    display: inline;
 }
 
 .especial{
@@ -24,6 +24,7 @@
     padding: 5px;
     width: 100px;
     height: 200px;
+    display: inline-block;
 }
 
 .mixto{
@@ -37,5 +38,17 @@
     padding: 5px;
     width: 50%;
     height: 200px;
+    display: block;
 }
 
+.contenedor, .izquierda, .derecha{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+.izquierda, .derecha{
+    display: inline-block;
+    width: 49.8%;
+    box-sizing: border-box;
+}

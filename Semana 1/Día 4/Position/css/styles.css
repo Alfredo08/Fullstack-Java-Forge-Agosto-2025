@@ -51,3 +51,24 @@
 
 
 /* Styles for position */
+.heading{
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+}
+
+.mainContent{
+  margin-top: 80px;
+}
+
+#message{
+  position: relative;
+  height: 300px;
+  z-index: 1;
+}
+
+.send{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
