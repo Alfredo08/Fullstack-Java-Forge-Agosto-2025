@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+.seccion1{
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    height: 200px;
+}
+
+.especial{
+    border: 1px solid black;
+}
+
+.regular{
+    border: 1px solid black;
+}
+
+.seccion2{
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    height: 200px;
+}
+
+.mixto{
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.seccion3{
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 5px;
+    width: 50%;
+    height: 200px;
+}
+
