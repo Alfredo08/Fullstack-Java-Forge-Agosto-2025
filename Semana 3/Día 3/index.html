@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Weather </title>
+        <link href="./css/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <h1>Dojo Weather</h1>
+            <div class="cities">
+                <h2 class="city">Brubank</h2>
+                <h2 class="city">Chicago</h2>
+                <h2 class="city">Dallas</h2>
+            </div>
+        </nav>
+        <div class="info">
+            <h2>San Jose</h2>
+            <div>
+                <span>show temperature in </span>
+                <select id="temperature">
+                    <option value="celcius"> ºC </option>
+                    <option value="farenheit"> ºF </option>
+                </select>
+            </div>
+        </div>
+        <div class="week">
+            <div class="day">
+                <h3>Today</h3>
+                <img class="image" src="./imagenes/some_rain.png" alt="some rain">
+                <p>some rain</p>
+                <div class="temperatures">
+                    <p class="temp-max">
+                        <span class="max">24</span>º
+                    </p>
+                    <p class="temp-min">
+                        <span class="min">18</span>º
+                    </p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Tomorrow</h3>
+                <img class="image" src="./imagenes/some_sun.png" alt="some sun">
+                <p>some sun</p>
+                <div class="temperatures">
+                    <p class="temp-max">
+                        <span class="max">27</span>º
+                    </p>
+                    <p class="temp-min">
+                        <span class="min">19</span>º
+                    </p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Friday</h3>
+                <img class="image" src="./imagenes/some_clouds.png" alt="some clouds">
+                <p>some clouds</p>
+                <div class="temperatures">
+                    <p class="temp-max">
+                        <span class="max">21</span>º
+                    </p>
+                    <p class="temp-min">
+                        <span class="min">16</span>º
+                    </p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Saturday</h3>
+                <img class="image" src="./imagenes/some_sun.png" alt="some sun">
+                <p>some sun</p>
+                <div class="temperatures">
+                    <p class="temp-max">
+                        <span class="max">26</span>º
+                    </p>
+                    <p class="temp-min">
+                        <span class="min">21</span>º
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="cookie">
+            <img src="./imagenes/cookie.png" alt="cookie">
+            <div class="cookie-body">
+                <h3> Stop! Cookie time </h3>
+                <p>
+                    We use cookies (sadly not the edible ones) to personalize
+                    content and ads, to provide social media features and to
+                    analyse our traffic. <a href="#"> Read more ...</a>
+                </p>
+            </div>
+            <button class="cookie-accept">
+                I Accept
+            </button>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
