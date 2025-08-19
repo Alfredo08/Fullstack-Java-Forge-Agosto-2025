@@ -1,0 +1,41 @@
+main{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.listado{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.listaPokemon{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.paginacion{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.detalle{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonPokemon, .botonPaginacion{
+    width: 130px;
+    padding: 5px;
+}
+
+.tipos{
+    display: flex;
+    gap: 5px;
+}
