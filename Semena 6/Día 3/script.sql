@@ -50,27 +50,6 @@ CREATE TABLE IF NOT EXISTS `directores_peliculas_db`.`peliculas` (
 ENGINE = InnoDB;
 
 
--- -----------------------------------------------------
--- Table `directores_peliculas_db`.`directores_has_peliculas`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `directores_peliculas_db`.`directores_has_peliculas` (
-  `directores_id` INT NOT NULL,
-  `peliculas_id` INT NOT NULL,
-  PRIMARY KEY (`directores_id`, `peliculas_id`),
-  INDEX `fk_directores_has_peliculas_peliculas1_idx` (`peliculas_id` ASC) VISIBLE,
-  INDEX `fk_directores_has_peliculas_directores1_idx` (`directores_id` ASC) VISIBLE,
-  CONSTRAINT `fk_directores_has_peliculas_directores1`
-    FOREIGN KEY (`directores_id`)
-    REFERENCES `directores_peliculas_db`.`directores` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_directores_has_peliculas_peliculas1`
-    FOREIGN KEY (`peliculas_id`)
-    REFERENCES `directores_peliculas_db`.`peliculas` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
