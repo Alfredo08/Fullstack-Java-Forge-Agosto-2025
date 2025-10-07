@@ -1,0 +1,17 @@
+.imagen-jugo{
+   width: 90%; 
+}
+
+.tarjeta-jugo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #CBCBCB;
+    margin: 15px;
+    padding: 15px;
+}
+
+.mensaje-error{
+    display: block;
+}
